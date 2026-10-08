@@ -1,24 +1,34 @@
-### Task2: Exploratory Data Analysis (EDA)
-**Folder:** `task2-eda/`
-**Tool:** Microsoft Excel (descriptive statistics, IQR outlier detection, pivot tables, correlation, charts)
-**Dataset:** the cleaned 1,200-order dataset from Task 1
+# Task 2: Exploratory Data Analysis (EDA)
 
-**Questions explored**
-- What is the typical order value, and how is it distributed?
-- Which orders are outliers?
-- Which months generate the most revenue?
-- Which factors drive revenue most?
+Part of the DecodeLabs Data Analytics Internship.
 
-**Key findings**
-- Mean order value is 1,053.97 and the median is 823.62, so the distribution is right-skewed
-- The IQR method (upper bound 3,333.53) flagged 8 high-value outliers, all 5-unit orders priced above 666 each
-- 4 of those 8 were cancelled or returned, which is close to the 41% cancellation/return rate across all orders
-- June had the highest revenue; September the lowest
-- UnitPrice has the strongest correlation with revenue (0.72), ahead of Quantity (0.62) and ItemsInCart (0.39)
+## Objective
+Analyse the cleaned orders dataset (1,200 orders, Jan 2023 – Jun 2025) to find purchasing patterns, trends and outliers.
 
-**Limitations**
-- Only 8 outliers, so conclusions about them are indicative, not conclusive
-- Data covers Jan 2023 to Jun 2025, so Jan–Jun are over-represented in monthly totals
-- No repeat-purchase or customer demographic data; correlation does not imply causation
+## Tool
+Microsoft Excel (descriptive statistics, IQR outlier detection, pivot tables and pivot charts, correlation)
 
-**Deliverables:** Excel workbook with pivot tables and charts, plus an Executive Summary report
+## Files
+- `[your Week 2 file name]`: workbook with the Executive Summary report, pivot tables and charts, the cleaned data and a change log
+
+## Questions explored
+- What is the average order size and value?
+- Which months generate the most revenue, year by year?
+- Are there high-value orders, and what are they like?
+- Which factors (Quantity, UnitPrice, ItemsInCart) affect revenue most?
+
+## Key findings
+- Mean order value is 1,053.97 and the median is 823.62, so the distribution is right-skewed.
+- The IQR method (upper bound 3,333.53) found 8 high-value outliers: all bulk orders of 5 items, from 8 different customers. 4 of the 8 were cancelled or returned, against 41.4% of all orders.
+- June was the top revenue month in 2024 and 2025 (May in 2023). There is no consistent slow season.
+- Revenue is declining year on year: January–June fell from 286,502 (2023) to 257,059 (2024) to 231,883 (2025), about 10% a year.
+- UnitPrice has the strongest correlation with revenue (0.72), ahead of Quantity (0.62) and ItemsInCart (0.39).
+
+## Recommendations
+Investigate the revenue decline and order cancellations/returns, test whether high-value customers repeat-buy before building a loyalty program, and stock up before June.
+
+## Limitations
+Only 8 outliers; 2025 covers January to June only; no repeat-purchase or demographic data; correlation does not imply causation.
+
+## Skills demonstrated
+EDA, outlier detection, pivot tables, correlation analysis, data storytelling, and checking findings year by year.
