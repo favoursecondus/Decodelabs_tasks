@@ -33,7 +33,8 @@ AI-assisted development supported code generation, implementation, and refinemen
 
 The dashboard provides a central view of ecommerce performance, helping users explore revenue trends, identify strong-performing products, understand order patterns, and make more informed business decisions.
 
-decodelabs dashboard.PNG
+Dashboard Preview
+![DecodeLabs Dashboard](./decodelabs%20dashboard.PNG)
 
 ## Live Demo
 
