@@ -8,9 +8,6 @@ Analyse the cleaned orders dataset (1,200 orders, Jan 2023 – Jun 2025) to find
 ## Tool
 Microsoft Excel (descriptive statistics, IQR outlier detection, pivot tables and pivot charts, correlation)
 
-## Files
-- `[your Week 2 file name]`: workbook with the Executive Summary report, pivot tables and charts, the cleaned data and a change log
-
 ## Questions explored
 - What is the average order size and value?
 - Which months generate the most revenue, year by year?
