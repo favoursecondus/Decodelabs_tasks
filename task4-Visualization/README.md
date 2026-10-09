@@ -32,7 +32,7 @@ AI-assisted development supported code generation, implementation, and refinemen
 ## Business Value
 
 The dashboard provides a central view of ecommerce performance, helping users explore revenue trends, identify strong-performing products, understand order patterns, and make more informed business decisions.
-
+Decodelabs Dashboard
 ## Live Demo
 
 [Open the DecodeLabs Ecommerce Analytics Dashboard] https://script.google.com/macros/s/AKfycbwIaIV2zrHmSt0WPB8nWzvdtx5_f_QNyiAWZzvlYIesPLC7DBRXR7u1FelWK8hgTn_Q/exec
