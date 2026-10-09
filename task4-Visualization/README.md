@@ -15,7 +15,8 @@ The dashboard uses Google Sheets as its data source and Google Apps Script to po
 - **Interactive Filters:** Explore the data using available dashboard filters.
 - **Order Management:** Add, edit, and delete records through the dashboard.
 - **Business Insights:** Surface useful patterns in the ecommerce data.
-
+- **Breaks monthly trends down by year.**
+  
 ## Tools and Technologies
 
 - Google Sheets
