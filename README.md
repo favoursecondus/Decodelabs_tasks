@@ -2,13 +2,9 @@
 
 This repository documents the data analytics tasks completed during my DecodeLabs internship, covering data cleaning, exploratory data analysis, SQL analysis, and interactive dashboard development.
 
-The projects demonstrate my practical application of data analytics tools and techniques to explore ecommerce data, identify patterns, and communicate business insights.
-
 ## About This Portfolio
 
-This repository documents my data analytics projects, covering data cleaning, exploratory data analysis, SQL querying, and interactive dashboard development.
-
-The projects demonstrate my ability to prepare datasets, investigate business performance, extract insights, and communicate findings through data visualisation.
+The projects demonstrate practical application of data analytics tools and techniques to prepare datasets, investigate business performance, extract insights, and communicate findings through data visualization.
 
 ## Projects
 
