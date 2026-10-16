@@ -8,26 +8,26 @@ The projects demonstrate practical application of data analytics tools and techn
 ## Projects
 
 ### Task 1: Data Cleaning & Preparation
-- **Folder:** `task1-data-cleaning/`
+- **Folder:** [task1-data-cleaning](task1-data-cleaning/)
 - **Tool:** Excel
 - **What I did:** Validated 1,200 orders, standardised dates, set data types, filled 309 missing coupon codes with "NIL", and confirmed that TotalPrice = Quantity × UnitPrice on every row.
 - **Documentation:** Recorded changes in a change log.
 
 ### Task 2: Exploratory Data Analysis (EDA)
-- **Folder:** `task2-eda/`
+- **Folder:** [task2-eda](task2-eda/)
 - **Tool:** Excel, pivot tables, charts, IQR, correlation
 - **Key findings:** Identified right-skewed order values and eight high-value statistical outliers, half of which were cancelled or returned. June was the strongest month in 2024 and 2025. January to June revenue fell by about 10% each year (2023 to 2025), and UnitPrice was the strongest driver of revenue in the analysis.
 - **Documentation:** See the Task 2 README.
 
 ### Task 3: SQL Data Analysis
-- **Folder:** `task3-sql-analysis/`
+- **Folder:** [task3-sql-analysis](task3-sql-analysis/)
 -**Tool:** PostgreSQL
 - **What I did:** Wrote 12 SQL queries (filtering, aggregation, grouping, HAVING, EXTRACT) on the 1,200-order dataset to analyze revenue by product, month and year, order status, and unusually large orders.
 - **Key findings:** Total revenue was 1,264,762 with an average order value of 1,053.97. Chair and Printer were the top products. June was the highest-revenue month and September the lowest. Only 19.2% of orders were delivered, and 41.4% were cancelled or returned.
 - **Documentation:** SQL report (PDF), all queries, and table setup. See the Task 3 README.
 
 ### Task 4: DecodeLabs Ecommerce Analytics Dashboard
-- **Folder:** `task4-Visualization/`
+- **Folder:** [task4-Visualization](task4-Visualization/)
 - **Tools:** Google Sheets, Google Apps Script, HTML, CSS, JavaScript
 - **Description:** Developed an interactive dashboard for monitoring key performance indicators, analysing revenue trends, comparing product performance, and exploring order patterns.
 - **Features:** KPI cards, interactive filters, monthly charts, top 10 products, weekday and weekend analysis, and order management.
