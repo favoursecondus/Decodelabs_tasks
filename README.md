@@ -1,6 +1,6 @@
 # DecodeLabs Internship | Data Analytics Projects
 
-The projects demonstrate practical application of data analytics tools and techniques to prepare datasets, investigate business performance, extract insights, and communicate findings through data visualization.
+This repository documents the data analytics tasks completed during my DecodeLabs internship, covering data cleaning, exploratory data analysis, SQL analysis, and interactive dashboard development.
 ## About This Portfolio
 
 The projects demonstrate practical application of data analytics tools and techniques to prepare datasets, investigate business performance, extract insights, and communicate findings through data visualization.
