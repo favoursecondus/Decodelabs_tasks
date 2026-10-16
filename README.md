@@ -1,7 +1,6 @@
 # DecodeLabs Internship | Data Analytics Projects
 
-This repository documents the data analytics tasks completed during my DecodeLabs internship, covering data cleaning, exploratory data analysis, SQL analysis, and interactive dashboard development.
-
+The projects demonstrate practical application of data analytics tools and techniques to prepare datasets, investigate business performance, extract insights, and communicate findings through data visualization.
 ## About This Portfolio
 
 The projects demonstrate practical application of data analytics tools and techniques to prepare datasets, investigate business performance, extract insights, and communicate findings through data visualization.
@@ -17,12 +16,15 @@ The projects demonstrate practical application of data analytics tools and techn
 ### Task 2: Exploratory Data Analysis (EDA)
 - **Folder:** `task2-eda/`
 - **Tool:** Excel, pivot tables, charts, IQR, correlation
-- **Key findings:** Identified right-skewed order values and eight high-value statistical outliers, half of which were cancelled or returned. June was the strongest month in 2024–2025. Revenue declined by approximately 10% annually, and UnitPrice was the strongest driver of revenue in the analysis.
+- **Key findings:** Identified right-skewed order values and eight high-value statistical outliers, half of which were cancelled or returned. June was the strongest month in 2024 and 2025. January to June revenue fell by about 10% each year (2023 to 2025), and UnitPrice was the strongest driver of revenue in the analysis.
+- **Documentation:** See the Task 2 README.
 
 ### Task 3: SQL Data Analysis
 - **Folder:** `task3-sql-analysis/`
-- **Tool:** SQL
-- **Description:** Wrote SQL queries to extract insights from the ecommerce database.
+-**Tool:** PostgreSQL
+- **What I did:** Wrote 12 SQL queries (filtering, aggregation, grouping, HAVING, EXTRACT) on the 1,200-order dataset to analyze revenue by product, month and year, order status, and unusually large orders.
+- **Key findings:** Total revenue was 1,264,762 with an average order value of 1,053.97. Chair and Printer were the top products. June was the highest-revenue month and September the lowest. Only 19.2% of orders were delivered, and 41.4% were cancelled or returned.
+- **Documentation:** SQL report (PDF), all queries, and table setup. See the Task 3 README.
 
 ### Task 4: DecodeLabs Ecommerce Analytics Dashboard
 - **Folder:** `task4-Visualization/`
